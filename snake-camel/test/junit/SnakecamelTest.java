@@ -22,6 +22,7 @@ public class SnakecamelTest {
 		String expected = "ikimono_gakari";
 		String actual = SnakeCamelUtil.snakeToCamelcase("IkimonoGakari");
 		assertThat(actual,is(expected));
+		
 	}
 	public void capitalize‚ª‚«‚¿‚ñ‚Æì“®‚·‚é(){
 		StringBuilder sb = new StringBuilder();
